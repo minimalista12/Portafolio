@@ -1,0 +1,59 @@
+/* Los estilos de tu proyecto */
+
+body {
+	background-color: #F7B617;
+}
+
+nav  {
+	background-color: #FFFFFF;
+	height: 110px;
+	padding-top: 30px;
+}
+
+.sidebar {
+	display: inline-block;
+	padding-bottom: 60px;
+}
+
+.sidebar img {
+	width:360px; 
+	height:auto;
+	position: relative;
+	display: inline;
+	padding-top: 70px;
+}
+
+#fondo1 {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: 100% 92%;
+  background-repeat: no-repeat;
+  height: 53em;
+}
+
+#parrafo {
+	text-orientation: center;
+	position: relative;
+	float:left;
+	max-width: 370px;
+	max-height: 300px;
+	
+}
+
+#parrafo h4 {
+	color:white;
+	font-size: 28px;
+}
+
+#parrafo p {
+	color:white;
+	font-size: 22px;
+}
+
+#fondo2 {
+	object-fit: cover;
+	height: 459px;
+	width: 100%;
+
+}
+

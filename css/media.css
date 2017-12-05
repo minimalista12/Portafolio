@@ -1,0 +1,35 @@
+
+@media  (max-width: 300px )  {
+ 	[class*="panel"]  {
+
+ 		max-width: 100%;
+ 		flex:none;
+ 	}
+
+#parrafo {
+	display: none;
+}
+
+
+#fondo1 {
+	background-image: url(../assets/images/taxi.jpg);
+	object-fit: cover;
+	width:627px;
+	height: 100%;
+
+}
+
+}
+
+@media  (max-width: 790px )  {
+ 	[class*="panel"]  {
+
+ 		max-width: 100%;
+ 		flex:none;
+ 	}
+
+#parrafo {
+	display: none;
+}
+}
+
