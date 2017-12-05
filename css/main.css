@@ -14,7 +14,11 @@ nav  {
 	padding-bottom: 50px;
 	padding-top: 50px;
 	background-color: #F7B617;
+}
 
+#logo {
+	height: 30px;
+	width: 133px;
 }
 
 #fondo1 {
@@ -25,6 +29,63 @@ nav  {
   height: 55em;
 }
 
+
+.cajita {
+	float: right;
+	background-color: #F7B617;
+	height: 390px;
+	width: 525px;
+}
+
+.cajita h2 {
+	padding-left: 15px;
+	color: white;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+	padding-top: 30px;
+}
+
+.cajita h3 {
+	padding-top:20px;
+	padding-left:15px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+}
+
+.cajita h6{
+	padding-top:10px;
+	padding-left:55px;
+	padding-bottom: 18px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+}
+
+#logito {
+	width: 90px;
+	height: 25px;
+	padding-bottom:5px;
+}
+
+h6::after {
+  content: "________________________";
+}
+ 
+h6::before {
+  content: "________________________";
+}
+ 
+
+
+.btn-secondary {
+	font-size: 18px;
+	background: white;
+	color: black;
+	margin-left: 50px;
+	font-weight: 400;
+}
 
 #fondo2 {
 	background-image: url(../assets/images/conduce.jpg);
