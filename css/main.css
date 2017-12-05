@@ -1,0 +1,36 @@
+/* Los estilos de tu proyecto */
+
+body {
+	background-color: #F7B617;
+}
+
+nav  {
+	background-color: #FFFFFF;
+	height: 110px;
+	padding-top: 30px;
+}
+
+.sidebar {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: #F7B617;
+
+}
+
+#fondo1 {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: 83% 93%;
+  background-repeat: no-repeat;
+  height: 55em;
+}
+
+
+#fondo2 {
+	background-image: url(../assets/images/conduce.jpg);
+	background-size: cover;
+	background-position: 20% 80%;
+	height: 30em;
+
+}
+

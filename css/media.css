@@ -1,0 +1,52 @@
+
+@media  (max-width: 300px )  {
+ 	[class*="panel"]  {
+
+ 		max-width: 100%;
+ 		flex:none;
+ 	}
+
+#telefono {
+	max-height: 80%;
+	margin-left: none;
+	
+}
+
+nav {
+	padding-top: -1px;
+}
+
+#fondo1 {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: 80% 97%;
+  background-repeat: no-repeat;
+  height: 50em;
+}
+
+
+
+}
+
+@media  (max-width: 790px )  {
+ 	[class*="panel"]  {
+
+ 		max-width: 100%;
+ 		flex:none;
+ 	}
+nav {
+	padding-top: -1px;
+}
+
+#fondo1 {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: 80% 97%;
+  background-repeat: no-repeat;
+  height: 50em;
+}
+
+
+
+}
+
