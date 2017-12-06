@@ -1,13 +1,16 @@
+<!-- Suelta tus manos y tu mente para solucionar este reto -->
+
 <!DOCTYPE html>
 
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
  <link rel="stylesheet" href="css/main.css">
  <link rel="stylesheet" href="css/media.css">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,38 +49,56 @@
   <div class="box content" col-lg-12>
       <div id="fondo1"> 
       
-        <div class="cajita" style="margin-top:220px">  
+      <!-- Cajita opcion regular -->
+        <div id="cajita" style="margin-top:220px" class="hidden-xs" col-lg-12 >  
         <h2> <ul>Disfruta del viaje</ul>
              <ul>Eres dueño de tu tiempo</ul>
              </h2> 
              <h3>
              <ul> Viaja con <img src="assets/images/logoBlanco.png" id="logito"> </ul>  </h3>
-
         
         <button type="button" class="btn btn-secondary">REGISTRATE</button>
 
         <h6>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;O bien &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
         </h6>
 
-
         <button type="button" class="btn btn-secondary">Conviertete en Conductor</button>
+        </div>
+
+        <!-- Cajita opcion movil-->
+        <div id="cajita2" style="margin-top:220px" class="visible-xs" >  <h2> Comienza a viajar </br> con &nbsp;<img src="assets/images/logoBlanco.png" id="logito2"></h2>
+        <button type="button" class="btn btn-secondary"  style="margin-top:20px" >Descargar App</button>
+        </div>
+
+        </div>
+
+
 
         </div>
               </div> </div>
+       <!-- Segunda Parte-->
+    <div class="sidebar" class="hidden-xs" col-lg-12> 
+
+    <div class="col-lg-10" class="hidden-xs"> 
+    <!-- Imagen e info version regular-->
+
+    <img src="assets/images/iPhone6Plus.png" class="hidden-xs" style="float:left" vspace="20" id="telefono">
+    <div id="parrafo" class="hidden-xs" >
+         <h2> Descarga la nueva app </h2>
+          <banner> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic magni ea, quisquam commodi
+         <br/> 
+         <br/>
+
+         recusandae, magnam quidem unde, vitae eum, eaque odit! Natus eum, doloremque impedit amet minima hic numquam excepturi.</banner> </div>
 
 
+     <!-- Imagen e info version movil-->
+     <img src="assets/images/iPhone6Plus.png" class="visible-xs" style="float:left" vspace="20" id="telefono2">
+    
 
-    <div class="sidebar" col-lg-12> 
-    <div class="row">
-
-
-     </div>
-
-
-
-
-
-
+    <div class="col-lg-2"  class="hidden-xs" >
+    </div>
+  
 
      </div>
 
@@ -85,22 +106,13 @@
 
     </div>
 
-
-
-
-
-  <div class="box content"  col-lg-12>
-  
-
-
-
-  </div>
-
    <div class="box content" col-lg-12>
        <div id="fondo2">
 
-
         </div>
+
+
+        
 
 
 
@@ -118,7 +130,6 @@
 
 
   </div>
-
 
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
