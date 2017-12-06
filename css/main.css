@@ -152,8 +152,66 @@ h6::before {
 #fondo2 {
 	background-image: url(../assets/images/conduce.jpg);
 	background-size: cover;
-	background-position: 20% 80%;
+	background-position: 20% 60%;
 	height: 430px;
+	position: relative;
 
 }
+
+/*configura texto traslucido*/
+#traslucida {
+	margin-top: 1300px;
+	margin-left: 820px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 463px;
+    height: 430px;
+}
+
+#traslucida h2{
+	color: white;
+	margin-top:110px;
+	margin-left: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+#traslucida ul {
+	color: white;
+	font-size: 18px;
+}
+
+#botonamarillo {
+	color:white;
+	background-color: #F7B617;
+}
+
+
+/*configuramos version movil*/
+
+#traslucida2 {
+	margin-top: 1270px;
+	background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 330px;
+}
+
+#traslucida2 h2 {
+	font-size: 14px;
+	color: white;
+	margin-top:110px;
+	margin-left: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+#traslucida2 ul {
+	color:white;
+}
+
 
