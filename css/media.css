@@ -6,18 +6,45 @@
  		flex:none;
  	}
 
-#parrafo {
-	display: none;
+nav {
+	padding-top: -1px;
 }
-
 
 #fondo1 {
-	background-image: url(../assets/images/taxi.jpg);
-	object-fit: cover;
-	width:627px;
-	height: 100%;
-
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: 80% 97%;
+  background-repeat: no-repeat;
+  height: 50em;
 }
+
+#logo {
+	margin-left: 50px;
+	height: 20px;
+	width: 83px;
+}
+#cajita2 {
+	float: right;
+	background-color: #F7B617;
+	height: 130px;
+	width: 245px;
+	font-size: 16px;
+}
+
+#telefono2 {
+	width: 200px;
+	height:220px;
+}
+
+
+
+
+button {
+	margin-right: 300px;
+}
+
+
+
 
 }
 
@@ -27,9 +54,43 @@
  		max-width: 100%;
  		flex:none;
  	}
-
-#parrafo {
-	display: none;
+nav {
+	padding-top: -1px;
 }
+
+#fondo1 {
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: 80% 97%;
+  background-repeat: no-repeat;
+  height: 50em;
+}
+
+#logo {
+	margin-left: 50px;
+	height: 20px;
+	width: 83px;
+}
+
+#cajita2  {
+	float: right;
+	background-color: #F7B617;
+	height: 180px;
+	width: 355px;
+	font-size: 20px;
+}
+
+#telefono2 {
+	width: 200px;
+	height:220px;
+}
+
+.col-lg-10 {
+	border-bottom: none;
+	border-top:none;
+	border-right: none;
+	padding: none;
+	}
+
 }
 
