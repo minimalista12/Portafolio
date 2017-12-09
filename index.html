@@ -23,7 +23,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header" >
-            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"  >
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle  pull-left" style="margin-left:20px" >
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -38,8 +38,8 @@
                 <li><a href="#">Viaja</a></li>
                 <li><a href="#">Conduce</a></li>
                 <li><a href="#">Login</a></li>
-            </ul>
-        </div>
+            </ul> </div>
+        </div> 
     </div>
 </nav>
 
@@ -56,18 +56,162 @@
              </h2> 
              <h3>
              <ul> Viaja con <img src="assets/images/logoBlanco.png" id="logito"> </ul>  </h3>
-        
-        <button type="button" class="btn btn-secondary">REGISTRATE</button>
+
+              <!-- Boton de registro -->
+              <button type="button" class="btn  btn-lg" data-toggle="modal" data-target="#ModalLoginForm"   id="boton1">
+               REGISTRATE </button> 
+                                  <div id="ModalLoginForm" class="modal fade">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                     <div class="modal-header">
+                                  <h1 class="modal-title"></h1> </div>
+                            <div class="modal-body">
+                         <form role="form" method="POST" action="">
+                       <input type="hidden" name="_token" value="">
+                      <div class="form-group">
+                        <label class="control-label">E-Mail</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Clave</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="remember"> Recuerdame 
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-success">Ingresar</button>
+ 
+                            <a class="btn btn-link" href="">¿Olvidaste tu clave?</a>
+                        </div>
+                    </div>
+                </form>
+                <h1>O Registrate Ahora! </h1>
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label">Nombre de Usuario</label>
+                        <div>
+                            <input type="text" class="form-control input-lg" name="name" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">E-Mail </label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Clave</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Confirma tu clave</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password_confirmation">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-success">Registrate </button>
+                         </div>
+                             </div>
+                                  </form>
+                                     </div>
+                                       </div><!-- /.modal-content -->
+                                         </div><!-- /.modal-dialog -->
+                                           </div>
+
+
+
+
 
         <h6>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;O bien &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
         </h6>
+        <!-- Boton de ingreso de conductores -->
+               <button class="btn btn-primary btn-lg" data-toggle="modal" data-target= "#myModalNorm" id="boton2"> Conviertete en Conductor</button>
 
-        <button type="button" class="btn btn-secondary">Conviertete en Conductor</button>
-        </div>
+                    <!-- Modal -->
+                   <div class="modal fade" id="myModalNorm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog">
+                                    <div class="modal-content">
+                                 <!-- Modal Header -->
+                                 <div class="modal-header">
+                           <button type="button" class="close" 
+                                data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span></button>
+                             <h4 class="modal-title" id="myModalLabel">
+                   Ingresa Tus Datos</h4> </div>
+            
+                    <div class="modal-body">
+                
+                    <form role="form">
+                      <div class="form-group">
+                       <label for="exampleInputEmail1">Ingresa tu nombre Completo</label>
+                        <input type="email" class="form-control"
+                      id="exampleInputEmail1" placeholder="Nombre completo"/></div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingresa tu rut</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Rut completo"/>  </div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingresa modelo de tu auto</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Modelo auto"/></div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingresa numero de patente</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Numero de patente"/></div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingrsa numero de chasis</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Numero de chasis"/></div>
+                    <div class="checkbox">
+                    <label>
+                        <input type="checkbox"/> Yo accedo a los <a href="#">Terminos de uso</a> y <a href="#">Politicas de privacidad</a> establecidos por LabCar 
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-default">Enviar</button>
+                </form>
+                
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Cerrar
+                </button>
+                <button type="button" class="btn btn-primary">
+                    Guardar Cambios
+                </button>
+                  </div>
+                    </div>
+                     </div>
+                      </div>
+                        </div>
+
+
 
         <!-- Cajita opcion movil-->
         <div id="cajita2" style="margin-top:220px" class="visible-xs" >  <h2> Comienza a viajar </br> con &nbsp;<img src="assets/images/logoBlanco.png" id="logito2"></h2>
-        <button type="button" class="btn btn-secondary"  style="margin-top:20px" >Descargar App</button>
+        <button type="button" class="btn  btn-lg" data-toggle="modal" data-target="#ModalLoginForm"   id="boton1">
+               Descarga la App Ahora </button> 
+
+
         </div>
 
         </div>
@@ -94,7 +238,6 @@
 
      <!-- Imagen e info version movil-->
      <img src="assets/images/iPhone6Plus.png" class="visible-xs" style="float:left" vspace="20" id="telefono2">
-    
 
     <div class="col-lg-2"  class="hidden-xs" >
     </div>
@@ -115,7 +258,6 @@
              <h2> Conduce Cuando Quieras</h2>
              <ul>LabCar es una opcion flexible para alcanzar </br> tus metas financieras</ul>
 
-             <button type="button" class="btn btn-secondary" id="botonamarillo" style="margin-top:20px" >Conviertete en Conductor</button>
 
         </div>
 
@@ -124,17 +266,69 @@
              <h2> Conduce Cuando Quieras</h2>
              <ul>LabCar es una opcion flexible para alcanzar </br> tus metas financieras</ul>
 
-             <button type="button" class="btn btn-secondary" id="botonamarillo" style="margin-top:20px" >Conviertete en Conductor</button>
+                   <!-- Boton de ingreso de conductores -->
+               <button class="btn btn-primary btn-lg" data-toggle="modal" data-target= "#myModalNorm" id="boton3"> Conviertete en Conductor</button>
 
+                    <!-- Modal -->
+                   <div class="modal fade" id="myModalNorm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                   <div class="modal-dialog">
+                                    <div class="modal-content">
+                                 <!-- Modal Header -->
+                                 <div class="modal-header">
+                           <button type="button" class="close" 
+                                data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span></button>
+                             <h4 class="modal-title" id="myModalLabel">
+                   Ingresa Tus Datos</h4> </div>
+            
+                    <div class="modal-body">
+                
+                    <form role="form">
+                      <div class="form-group">
+                       <label for="exampleInputEmail1">Ingresa tu nombre Completo</label>
+                        <input type="email" class="form-control"
+                      id="exampleInputEmail1" placeholder="Nombre completo"/></div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingresa tu rut</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Rut completo"/>  </div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingresa modelo de tu auto</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Modelo auto"/></div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingresa numero de patente</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Numero de patente"/></div>
+                      <div class="form-group">
+                      <label for="exampleInputPassword1">Ingrsa numero de chasis</label>
+                      <input type="password" class="form-control"
+                          id="exampleInputPassword1" placeholder="Numero de chasis"/></div>
+                    <div class="checkbox">
+                    <label>
+                        <input type="checkbox"/> Yo accedo a los <a href="#">Terminos de uso</a> y <a href="#">Politicas de privacidad</a> establecidos por LabCar 
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-default">Enviar</button>
+                </form>
+                
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Cerrar
+                </button>
+                <button type="button" class="btn btn-primary">
+                    Guardar Cambios
+                </button>
+                  </div>
+                    </div>
+                     </div>
+                      </div>
+                        </div>
         </div>
-
-
-
-
-
-
-
-
 
    </div>
 
@@ -142,9 +336,6 @@
   <div class="box footer" col-lg-12>
    
   </div>
-
-
-
 
   </div>
 
