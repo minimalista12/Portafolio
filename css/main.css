@@ -230,3 +230,48 @@ h6::before {
 	margin-top: 10px;
 	color: white;
 }
+
+#rutas {
+	height: 550px;
+}
+
+
+#tarifaruta {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 96px;
+	margin-left: 113px;
+	color: white;
+}
+
+#tarifaruta h2 {
+	font-weight: 600;
+}
+
+#tarifaruta h3 {
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.form-control{
+
+	background-color: #F7B617;
+	height: 40px;
+	width: 312px;
+}
+
+#botoncito {
+	background-color: white;
+	color: black;
+	font-weight: 800;
+}
+
+#mapachico {
+	margin-left: -70px;
+	margin-top: 50px;
+}
+
+
+
+.footer {
+	background:#2B2B2B;
+}
