@@ -165,7 +165,7 @@ h6::before {
     position: absolute;
     top: 0;
     left: 0;
-    width: 463px;
+    width: 464px;
     height: 430px;
 }
 
@@ -192,19 +192,20 @@ h6::before {
 
 #traslucida2 {
 	margin-top: 1270px;
+	margin-left: -1850px;
 	background-color: rgba(0,0,0,.5);
     position: absolute;
     top: 0;
     left: 0;
     width: 600px;
     height: 330px;
+    z-index: 1000;
 }
 
 #traslucida2 h2 {
 	font-size: 14px;
 	color: white;
 	margin-top:110px;
-	margin-left: 45px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 }
@@ -254,15 +255,18 @@ h6::before {
 
 .form-control{
 
-	background-color: #F7B617;
+	background-color: white;
 	height: 40px;
 	width: 312px;
 }
 
 #botoncito {
+	text-align: center;
 	background-color: white;
 	color: black;
 	font-weight: 800;
+	width: 200px;
+	border: none;
 }
 
 #mapachico {
@@ -273,5 +277,26 @@ h6::before {
 
 
 .footer {
+	height: 600px;
 	background:#2B2B2B;
+}
+
+hr {
+	margin-top: 40px;
+	color: white;
+	width: 1070px;
+	margin-left: 110px;
+}
+
+#primeracolumna {
+	color:white;
+	line-height: 30px;
+	padding-bottom: 40px;
+}
+
+
+#segundacolumna {
+	color:white;
+	line-height: 30px;
+	padding-bottom: 40px;
 }
