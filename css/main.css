@@ -274,11 +274,43 @@ h6::before {
 	margin-top: 50px;
 }
 
+.fa-twitter {
+	color: white;
+	position: absolute; 
+	bottom: -290px; 
+}
 
+.fa-linkedin {
+	color: white;
+	position: absolute; 
+	bottom: -290px; 
+}
+
+.fa-apple {
+	color: white;
+	position: absolute; 
+	bottom: -290px; 
+}
+
+.fa-play {
+	color: white;
+	position: absolute; 
+	bottom: -290px; 
+}
+
+.fa-facebook {
+	color: white;
+	position: absolute; 
+	bottom: -290px; 
+}
 
 .footer {
 	height: 600px;
 	background:#2B2B2B;
+}
+
+#sns {
+	padding-left: 120px;
 }
 
 hr {
@@ -299,4 +331,20 @@ hr {
 	color:white;
 	line-height: 30px;
 	padding-bottom: 40px;
+}
+
+#google {
+	width: 142px;
+	position: absolute; 
+	bottom: -290px; 
+}
+
+#apple {
+	width: 142px;
+	position: absolute; 
+	bottom: -230px;	
+}
+
+#piepagina {
+	color: white;
 }
